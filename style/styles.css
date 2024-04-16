@@ -19,9 +19,9 @@
     --main-color: #59B2F4;
 }
 
-hmtl {
+html {
 font-size: 62.5%;
-overflow: hidden;
+/*overflow: hidden;*/
 }
 
 body {
@@ -402,7 +402,7 @@ span {
     }
     
     @media (max-width: 768px) {
-        menu-icon {
+        #menu-icon {
             display: block;
         }
         .navbar {
