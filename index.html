@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,11 +18,11 @@
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Serviços</a>
-            <a href="#">Portfólio</a>
-            <a href="#">Contato</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#portifolio">Portfólio</a>
+            <a href="#contact">Contato</a>
         </nav>
     </header>
 
@@ -31,7 +31,7 @@
         <div class="home-content">
             <h3>Olá, Prazer! Eu sou</h3>
             <h1>João Pedro</h1>
-            <h3>Sou também um <span>Desenvolvedor Web</span></h3>
+            <h3>Sou também um <span class="multiple-text"></span></h3>
             <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
             <div class="social-media">
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -46,7 +46,7 @@
 
     <!--SEÇÃO SOBRE-->
     <section class="about" id="about">
-        <div class="about.img">
+        <div class="about-img">
             <img src="/img/aboutpic.jpg" alt=""> 
         </div>
 
@@ -88,6 +88,9 @@
     </section>
     <!--SEÇÃO PORTIFOLIO-->
     <section class="portifolio" id="portifolio">
+        <h2 class="heading">Últimos <span>Projetos</span></h2>
+
+        <div class="portifolio-container">
         <div class="portifolio-box">
             <img src="/img/img1.jpg" alt="">
             <Div class="portifolio-layer">
@@ -97,6 +100,7 @@
 
             </Div>
         </div>
+    
 
         <div class="portifolio-box">
             <img src="/img/img2.jpg" alt="">
@@ -140,7 +144,7 @@
         </div>
 
         <div class="portifolio-box">
-            <img src="/img/img6.jpg" alt="">
+            <img src="/img/img6.png" alt="">
             <Div class="portifolio-layer">
                 <h4>Web Design</h4>
                 <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica</p>
@@ -180,6 +184,11 @@
             <i class="fa-solid fa-angle-up"></i></a>
         </Div>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
 <script src="JS/main.js"></script>
 </body>
 </html>
