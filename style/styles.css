@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('http://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * {
     margin: 0;
@@ -479,4 +479,15 @@ span {
         .contact form .input-box input {
             width: 100%;
         }
+    }
+
+    h4 {
+        color: white;
+        font-size: 1.6rem;
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 1.6rem;
+        color: var(--text-color);
+        background: var(--snd-bf-color);
+        border-radius: .8rem;
     }
