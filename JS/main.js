@@ -53,7 +53,7 @@ navbar.classList.remove('active');
   ScrollReveal().reveal('.home-contact p, .about-content', {origin:'right'});
 
   const typed = new Typed('.multiple-text', {
-      strings:['Desenvolvedor Web', 'Web Designer', 'Palmeirense'],
+      strings:['Desenvolvedor Web', 'Técnico em Informática', 'Gamer'],
       typeSpeed: 70,
       backSpeed: 70,
       backDelat: 1000,
